@@ -6,7 +6,7 @@ import * as React from 'react'
 const MessagesDisplay = React.forwardRef(({messages}, ref) => {
   const containerRef = React.useRef()
   React.useLayoutEffect(() => {
-    scrollTo()
+    scrollToBottom()
   })
 
   function scrollTo(scroll) {
